@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <IsMvcProject>true</IsMvcProject>
+    <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>RBT.Xperience.Core.Components.YouTubeVideo</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Vasu Yerramsetti</Authors>
+    <Company>Ray Business Technologies</Company>
+    <PackageIconUrl></PackageIconUrl>
+    <Description>Insert the video from specified YouTube URL location.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Kentico.Xperience.AspNetCore.WebApp" Version="13.0.73" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="dotnet pack RBT.Xperience.Core.Components.YouTubeVideo.csproj --no-build" />
+  </Target>
+
+</Project>
