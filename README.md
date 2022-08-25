@@ -4,7 +4,7 @@ Widget Enables to insert the video from specified YouTube URL location.
 
 # Installation
 
-Install the RBT.Xperience.Core.Components.YouTubeVideo1.0.2 NuGet Package to your Kentico Xperience 13 Core Website
+Install the [RBT.Xperience.Core.Components.YouTubeVideo1.0.2](https://www.nuget.org/packages/RBT.Xperience.Core.Components.YouTubeVideo) NuGet Package to your Kentico Xperience 13 Core Website
 
 # Widget
 
