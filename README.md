@@ -32,4 +32,4 @@ Please report any issues seen, in the issue list. We will address at the earlies
 
 # Compatibility
 
-This widget has been tested on Kentico Xperience 13 Core version (13.0.73) and can be used on any Kentico Xperience 13 Core instance.
+This widget has been tested on Kentico Xperience 13 Core version (13.0.73) and can be used on any(>=13.0.73) Kentico Xperience 13 Core instance.
