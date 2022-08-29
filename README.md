@@ -33,3 +33,9 @@ Please report any issues seen, in the issue list. We will address at the earlies
 # Compatibility
 
 This widget has been tested on Kentico Xperience 13 Core version (13.0.73) and can be used on any(>=13.0.73) Kentico Xperience 13 Core instance.
+# Uninstall instructions
+
+After uninstalling this package from the solution, if you are still seeing the widget on the page tab in Kentico CMS then please follow the below steps.
+
+Go to Solution -> Select Bin folder -> Select the specific widget dll(Ex:RBT.Xperience.Core.Components.GoogleMap.dll & RBT.Xperience.Core.Components.GoogleMap.Views.dll) and delete
+-> Rebuild the solution
