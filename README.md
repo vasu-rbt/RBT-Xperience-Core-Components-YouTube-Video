@@ -37,5 +37,5 @@ This widget has been tested on Kentico Xperience 13 Core version (13.0.73) and c
 
 After uninstalling this package from the solution, if you are still seeing the widget on the page tab in Kentico CMS then please follow the below steps.
 
-Go to Solution -> Select Bin folder -> Select the specific widget dll(Ex:RBT.Xperience.Core.Components.GoogleMap.dll & RBT.Xperience.Core.Components.GoogleMap.Views.dll) and delete
+Go to Solution -> Select Bin folder -> Select the specific widget dll(Ex:RBT.Xperience.Core.Components.YouTubeVideo.dll & RBT.Xperience.Core.Components.YouTubeVideo.Views.dll) and delete
 -> Rebuild the solution
